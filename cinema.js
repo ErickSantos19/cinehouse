@@ -1,42 +1,42 @@
-/*const dividisao = (numero) => numero / 2 ;
+/const dividisao = (numero) => numero / 2 ;
 
 const aplicar = (numero, funcaoDividir) => {
     return funcaoDividir(numero);
 }
 
-console.log(aplicar(1500, dividisao))*/
+console.log(aplicar(1500, dividisao))
 
 
-/*setTimeout( () => {
+setTimeout( () => {
 console.log ('eu amo a vivi')
-}, 9000 )*/
+}, 9000 )
 
 
 const catalogo = require ('./database/catalogo.json')
 
 
 
-/*console.log(catalogo.map  ( (filme) => {
+console.log(catalogo.map  ( (filme) => {
     return filme.titulo
 }))
-*/
 
-/*console.log(catalogo.filter((filme)=> filme.anoDeLancamento == 2022))*/
 
-/*console.log(catalogo.reduce((acc, item)=>{
+console.log(catalogo.filter((filme)=> filme.anoDeLancamento == 2022))
+
+console.log(catalogo.reduce((acc, item)=>{
     return acc + item.duracao
-}, 0))*/
+}, 0))
 
 
-/*catalogo.forEach((filme)=>{
+catalogo.forEach((filme)=>{
     console.log(filme.titulo)
-})*/
+})
 
 
 
 
 // BUSCAR UM FILME ESPECIFICO
-/*const buscarFilme = (codigo) => catalogo.find((filme) => filme.codigo == codigo)
+const buscarFilme = (codigo) => catalogo.find((filme) => filme.codigo == codigo)
 
 console.log(buscarFilme(2))
 
@@ -60,11 +60,11 @@ console.log(alterarStatusEmCartaz(1,buscarFilme))*/
 
 
 //SOLICITANDO NOME SOMENTE DOS FILMES
-/*const nomeDosFilmesEmCartaz = () => {
+const nomeDosFilmesEmCartaz = () => {
     catalogo.forEach((filme) => console.log(`Nome dos filmes: ${filme.titulo}`))
 }
 
-nomeDosFilmesEmCartaz()*/
+nomeDosFilmesEmCartaz()
 
 
 
